@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Thunder YouTube Channel</title>
+    <style>
+        body {
+            background-color: #141414; /* Dark background color */
+            color: #FFD700; /* Gold text color */
+            font-family: Arial, sans-serif; /* Font family */
+            font-size: 24px; /* Base font size */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h1 {
+            font-size: 72px; /* Big font size for channel name */
+            text-decoration: underline; /* Underline channel name */
+            position: relative;
+            animation: glow 2s ease-in-out infinite alternate; /* Text glow animation */
+        }
+
+        .sparkle {
+            animation: sparkle 0.5s infinite alternate; /* Sparkle animation */
+        }
+
+        @keyframes sparkle {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.5;
+            }
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+            }
+            100% {
+                text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700;
+            }
+        }
+
+        .minecraft-icon {
+            width: 150px; /* Adjust size as needed */
+            height: 150px; /* Adjust size as needed */
+            margin-top: 20px; /* Adjust spacing */
+            animation: wave 2s ease-in-out infinite alternate; /* Icon wave animation */
+        }
+
+        @keyframes wave {
+            0% {
+                transform: translateX(0) translateY(0);
+            }
+            50% {
+                transform: translateX(20px) translateY(10px);
+            }
+            100% {
+                transform: translateX(0) translateY(0);
+            }
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 200px;
+            max-height: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #FFD700; /* Gold shadow */
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            color: #FFFFFF; /* White color for links */
+            text-decoration: none; /* Remove underline */
+            font-size: 20px; /* Font size for links */
+            margin-top: 20px; /* Adjust spacing */
+            transition: color 0.3s ease-in-out; /* Smooth color transition */
+        }
+
+        a:hover {
+            color: #FFD700; /* Gold color on hover */
+        }
+    </style>
+</head>
+<body>
+    <img src="cover.jpeg" alt="Minecraft Icon" class="minecraft-icon">
+    <h1 class="sparkle">Dark thunder ytc </h1>
+    <p>Youtube Channel of Dhairya Bora</p>
+    <div class="image-container">
+        <img src="1.jpeg" alt="Lightning Image 1">
+        <img src="pet.jpeg" alt="Lightning Image 2">
+        <img src="2.jpeg" alt="Gaming Image 1">
+        <img src="pet2.jpeg" alt="Gaming Image 2">
+    </div>
+    <a href="https://www.youtube.com/@DARK_THUNDER_YTC" target="_blank">Visit @DARK_THUNDER_YTC</a>
+</body>
+</html>
+
